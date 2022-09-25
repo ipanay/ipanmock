@@ -33,10 +33,10 @@ jobs:
       - name: copy bundle files with scp
         uses: appleboy/scp-action@v0.0.1
         with: 
-          host: ${{ secrets.REMOTE_HOST }},
-          username: ${{ secrets.REMOTE.USER }},
-          password: ${{ secrets.REMOTE.PASS }},
-          port: 22,
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE.USER }}
+          password: ${{ secrets.REMOTE.PASS }}
+          port: 22
           source: "./"
           target: ${{ secrets.REMOTE.FE_TARET }}
         
