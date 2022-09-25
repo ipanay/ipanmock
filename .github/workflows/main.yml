@@ -37,6 +37,6 @@ jobs:
           username: ${{ secrets.REMOTE.USER }},
           password: ${{ secrets.REMOTE.PASS }},
           port: 22,
-          source: "./",
+          source: "./"
           target: ${{ secrets.REMOTE.FE_TARET }}
         
