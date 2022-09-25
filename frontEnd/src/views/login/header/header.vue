@@ -1,7 +1,7 @@
 <template>
   <div class="ipan_header">
     <!-- <div id="serachInfo">sdfsf</div> -->
-    <router-link class='headerlink' to='/login'>登陆 / 注册</router-link>
+    <router-link class='headerlink' to='/login'>111登陆 / 注册</router-link>
     <a class='headerlink' href="http://tonystark.love" target="_blank"> 托尼 </a>
     <a class='headerlink' href="http://ipanmock.cn/weChat" target="_blank"> 聊天室 </a>
   </div>
