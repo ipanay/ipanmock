@@ -1,0 +1,235 @@
+/**themeColor:var(--main_bg)**/
+:root{
+    --main_bg:#347184;
+}
+#serachInfo{
+    background-color: var(--main_bg) !important;
+}
+#serachInfo{
+	background: var(--main_bg)!important;
+}
+.tabs-title li.active {
+    border-bottom-color: var(--main_bg) !important;
+}
+.col_menu .col_menu_head h3.col_name .col_name_text {
+    background: var(--main_bg)!important;
+}
+.col_list .wp_listcolumn .wp_column a .column-name {
+    border-left: 10px solid var(--main_bg)!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: var(--main_bg)!important;
+    border: 1px solid var(--main_bg)!important;
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+    border-top-color: var(--main_bg)!important;
+}
+.path_name {
+    color: var(--main_bg)!important;
+}
+.btn-success {
+    background: var(--main_bg)!important;
+    border-color: var(--main_bg)!important;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success.hover {
+    background: var(--main_bg)!important;
+}
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success:active.focus,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.open > .dropdown-toggle.btn-success.focus,
+.open > .dropdown-toggle.btn-success:focus,
+.open > .dropdown-toggle.btn-success:hover {
+    background: var(--main_bg)!important;
+    border-color: var(--main_bg)!important;
+}
+#searchTZ5_del,
+#searchTZ5,
+#searchTZ4,
+#searchTZ3,
+#searchTZ2,
+#searchTZ1 {
+    background: var(--main_bg)!important;
+}
+.tableInfo .layui-laypage .layui-laypage-curr .layui-laypage-em {
+    background: var(--main_bg)!important;
+}
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+    background-color: var(--main_bg)!important;
+}
+.layui-layer-btn .layui-layer-btn0{
+    background-color: var(--main_bg)!important;
+    border-color: var(--main_bg)!important;
+}
+.layui-progress-bar {
+    background-color: var(--main_bg)!important;
+}
+.layui-form-select dl dd.layui-this{
+    background-color:var(--main_bg)!important;
+}
+.layui-form-checked,.layui-form-checked:hover{
+    border-color:var(--main_bg)!important;
+}
+.layui-form-checked span,.layui-form-checked:hover span{
+    background-color:var(--main_bg)!important;
+}
+.layui-form-checkbox[lay-skin=primary]:hover i{
+    border-color:var(--main_bg)!important;
+}
+.layui-form-checked[lay-skin=primary] i{
+    border-color:var(--main_bg)!important;
+    background-color:var(--main_bg)!important;
+}
+.layui-form-onswitch{
+    border-color:var(--main_bg)!important;
+    background-color:var(--main_bg)!important;
+}
+.layui-form-radio>i:hover,.layui-form-radioed>i{
+    color:var(--main_bg)!important;
+}
+.layui-table-edit:focus{
+    border-color:var(--main_bg)!important;
+}
+.layui-nav .layui-this:after,.layui-nav-bar,.layui-nav-tree .layui-nav-itemed:after{
+   background-color:var(--main_bg)!important;
+}
+.layui-nav .layui-nav-child dd.layui-this a,.layui-nav-child dd.layui-this{
+    background-color:var(--main_bg)!important;
+}
+.layui-breadcrumb a:hover{
+    color:var(--main_bg)!important
+}
+.layui-tab-card>.layui-tab-more .layui-this{
+    color:var(--main_bg)!important;
+}
+.layui-tab-brief>.layui-tab-more li.layui-this:after,.layui-tab-brief>.layui-tab-title .layui-this:after{
+   border-bottom:2px solid var(--main_bg)!important;
+}
+.layui-timeline-axis{
+    color:var(--main_bg)!important;
+}
+.searchLink ul .active{
+    background: var(--main_bg)!important;
+}
+.askTitle img,
+.askTitle h2{
+	color: var(--main_bg)!important;
+}
+.topGo{
+    border-color: transparent transparent var(--main_bg) transparent!important;
+}
+#delBtn,#read,#allready{
+    background: var(--main_bg)!important;
+}
+.rili-type, .rili-change {
+    border: 1px solid var(--main_bg)!important;
+}
+.rili-classify span.active, .rili-classify span:hover {
+    background-color: var(--main_bg)!important;
+}
+.rili-search span {
+    background-color: var(--main_bg)!important;
+}
+.rili-classify-list i {
+    color: var(--main_bg)!important;
+}
+
+.calendar-cons {
+    color: var(--main_bg)!important;
+}
+.calendar-btn span {
+    border: 1px solid var(--main_bg)!important;
+}
+
+.calendar-btn span:first-child {
+    background-color: var(--main_bg)!important;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+    background-color: var(--main_bg)!important;
+}
+.quanxuan,.quanbuxuan{
+    background-color: var(--main_bg)!important;
+}
+.addRc{
+    background: var(--main_bg) none repeat scroll 0 0!important;
+}
+#submitBtn{
+    background: var(--main_bg)!important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background-color: var(--main_bg)!important;
+	border-color: var(--main_bg)!important;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover,.pagination>li>a, .pagination>li>span{
+	color: var(--main_bg)!important;
+}
+.layui-laypage a:hover {
+    color: var(--main_bg)!important;
+}
+.askContent>div{
+	color: var(--main_bg)!important;
+}
+.topBtn h3{
+	color: var(--main_bg)!important;
+}
+.btn-primary,.btn-primary:hover,.btn-primary:active,.btn-primary:focus,.btn-primary:active:focus{
+	background-color: var(--main_bg)!important;
+	border-color: var(--main_bg)!important;
+}
+.no-evaluate a{
+	color: var(--main_bg)!important;
+}
+.tableInfo .layui-laypage .layui-laypage-curr .layui-laypage-em{
+	background: var(--main_bg)!important;
+}
+.activex{
+	background: var(--main_bg)!important;
+}
+#rankInfo{
+	color:var(--main_bg)!important;
+}
+
+.btnTwo .shenqing{
+    background: var(--main_bg)!important;
+}
+.topBtn button{
+    background:  var(--main_bg)!important;
+}
+#tjpinjia{
+    background-color: var(--main_bg)!important;
+    border-color: var(--main_bg)!important;
+}
+.layui-layer-btn {
+    text-align: center!important;
+}
+.yanzhengma-btn{
+    background-color: var(--main_bg)!important;
+    border: 1px solid var(--main_bg)!important;
+}
+#searchTZ{
+    background:  var(--main_bg)!important;
+}
+#goBack{
+    background: #F4F4F4!important;
+}
+.layui-laypage-btn{
+    background-color: var(--main_bg)!important;
+    border-color: var(--main_bg)!important;
+    color: #fff!important;
+}
+.batch-item-active,.themeColor,.layui-laypage .layui-laypage-curr .layui-laypage-em{
+    background-color: var(--main_bg)!important;
+}
+.themeFontColor{
+    color: var(--main_bg)!important;
+}
+.batch-directory>div:hover{
+    background-color: var(--main_bg)!important;
+}

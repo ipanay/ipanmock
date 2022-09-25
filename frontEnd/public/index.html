@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- <title><%= HtmlWebpackPlugin.options.title %></title> -->
+    <title>ipanmock</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="ipan,mock,ipanmock">
+    <meta name="description" content="ipanmock是个人网站，初衷建立接口。">
+    <meta name="location" content="province=江苏;city=南京;">
+    <link rel="icon" href="./mock.ico">
+    <style>
+      .music {
+        position: absolute;
+        top: 6px;
+        left: 65px;
+        border-radius: 10px;
+        z-index: 9;
+        width: 30px;
+      }
+      .music:hover{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="./css/styles.css">
+  <body>
+    <button id="switchColorbtn">color</button>
+    <input id="ipan-dayneight-toggle" type="checkbox">
+    <label class="agentCheck" for="ipan-dayneight-toggle">
+      <span></span>
+    </label>
+    <img class="music" title="撸猫聆听音乐" src="./music.gif" alt="这里是一只猫">
+    <div id="app"></div>
+    <div style="position: fixed;bottom:0;width:100%;text-align: center;">
+      <span style="display: inline-block;width:100%">Designed & Powerd by panshoulong</span>
+      <span style="display: inline-block;width:100%">Copyright© 2019-2020 ipanmock</span>
+      <span style="display: inline-block;width:100%"><a href="https://beian.miit.gov.cn" target="_blank">苏ICP备20018422号</a></span>
+    </div>
+    <script src="styles.js"></script>
+  </body>
+</html>

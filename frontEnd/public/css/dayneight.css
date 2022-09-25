@@ -1,0 +1,144 @@
+:root{
+    --button-width: 35px;
+    --button-height: 20px;
+    --color-grey: azure;
+    --color-dark-grey: #39393d;
+    --circle-width: 16px;
+    --circle-offset: calc((var(--button-height) - var(--circle-width))/2);
+    --circle-longer: 20px;
+    --day-bg-color: #fafafa;
+    --neight-bg-color: #1c1c1c;
+    --day-font-color: #1c1c1c;
+    --neight-font-color: wheat;
+    --day-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    --neight-box-shadow: 0 2px 12px 0 rgba(204,202,202,.1);
+    --neight-box-shadow-hover: 0 2px 12px 0 rgba(204,202,202,.2);
+    --day-box-shadow-hover: 0 2px 12px 0 rgba(0,0,0,.2);
+    --day-font-bg-color: #eee;
+    --neight-font-bg-color: #634b4b;
+    --neight-projectitem-bg-color: #78909c;
+  }
+  .agentCheck{
+    line-height: 54px;
+    position:absolute;
+    left: 20px;
+    z-index: 10000;
+  }
+  .agentCheck span{
+    display: inline-block;
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--neight-bg-color);
+    border-radius: calc(var(--button-height)/2);
+    position: relative;
+    transition: .3s all ease-in-out
+  }
+  .agentCheck span::after{
+    content: '';
+    display: inline-block;
+    width: var(--circle-width);
+    height: var(--circle-width);
+    border-radius: calc(var(--circle-width)/2);
+    background-color: var(--day-bg-color);
+    position: absolute;
+    top: var(--circle-offset);
+    transform: translateX(var(--circle-offset));
+    box-shadow: var(--circle-offset) 0 calc(var(--circle-offset) * 4) rgba(0,0,0,0.1);
+    transition: .3s all ease-in-out
+  }
+  #ipan-dayneight-toggle {
+    display: none
+  }
+  #ipan-dayneight-toggle:checked + label span {
+    background-color: var(--day-bg-color);
+  }
+  #ipan-dayneight-toggle:checked + label span::after {
+    background-color: var(--neight-bg-color);
+    transform: translateX(calc(var(--button-width) - var(--circle-width) - var(--circle-offset)));
+    box-shadow: calc(var(--circle-offset) * -1) 0 calc(var(--circle-offset) * 4) rgba(0,0,0,0.1);
+  }
+  #ipan-dayneight-toggle:active + label span::after {
+    width: var(--circle-longer)
+  }
+  #ipan-dayneight-toggle:checked:active + label span::after {
+    transform: translateX(calc(var(--button-width) - var(--circle-longer) - var(--circle-offset)));
+  }
+  @media(prefers-color-scheme: dark) {
+    body {
+      background-color: #1c1c1c;
+    }
+    .agentCheck span {
+      background-color: var(--color-dark-grey)
+    }
+  }
+  #app {
+    height: 100%;
+  }
+  /* 白天 */
+  #app {
+    color: var(--day-font-color);
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: var(--day-bg-color);
+    transition: background-color .8s ease;
+  }
+  .headerlink {
+    color: var(--day-font-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .ipan-mock {
+    stroke: green;
+  }
+  .dayfont-color {
+    color: var(--day-font-color);
+  }
+  /* 夜间模式 */
+  #ipan-dayneight-toggle:checked + label + #app {
+    color: var(--neight-font-color);
+    background-color: var(--neight-bg-color);
+  }
+  #ipan-dayneight-toggle:checked + label + #app .headerlink{
+    color: var(--neight-font-color);
+  }
+  #ipan-dayneight-toggle:checked + label + #app .ipan-svg .ipan-mock{
+    stroke: red;
+  }
+  #ipan-dayneight-toggle:checked + label + #app .ipan_alert{
+    background-color: var(--day-bg-color);
+  }
+  #ipan-dayneight-toggle:checked + label + #app .ant-tree-switcher-icon{
+    background-color: var(--neight-font-color);
+  }
+  #ipan-dayneight-toggle:checked + label + #app .ant-tree-node-content-wrapper.ant-tree-node-selected{
+    background-color: var(--neight-projectitem-bg-color);
+  }
+  #ipan-dayneight-toggle:checked + label + #app .bigtitle,
+  #ipan-dayneight-toggle:checked + label + #app .ipan_login-title,
+  #ipan-dayneight-toggle:checked + label + #app .ipan_alert,
+  #ipan-dayneight-toggle:checked + label + #app .ant-form-item-label label,
+  #ipan-dayneight-toggle:checked + label + #app .ant-tree-title {
+    color: var(--neight-font-color)
+  }
+  #ipan-dayneight-toggle:checked + label + #app .ipan_alert {
+    color: var(--day-font-color)
+  }
+  #ipan-dayneight-toggle:checked + label + #app .projectlists {
+    box-shadow: var(--neight-box-shadow)
+  }
+  #ipan-dayneight-toggle:checked + label + #app .projectlists:hover {
+    box-shadow: var(--neight-box-shadow-hover)
+  }
+  #app form, #app .proitemsearch {
+    color: black;
+  }
+  #ipan-dayneight-toggle:checked + label + #app form input,
+  #ipan-dayneight-toggle:checked + label + #app form textarea,
+  #ipan-dayneight-toggle:checked + label + #app .proitemsearch,
+  #ipan-dayneight-toggle:checked + label + #app div.ant-table-placeholder,
+  #ipan-dayneight-toggle:checked + label + #app button.ant-btn-circle {
+    background-color: var(--neight-projectitem-bg-color);
+  }
