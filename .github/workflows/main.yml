@@ -39,10 +39,10 @@ jobs:
 #           port: 22
 #           source: "./"
 #           target: ${{ secrets.REMOTE.FE_TARET }}
-          host: "1.15.129.139"
-          username: "root"
-          password: "Pslslp.10"
-          port: 22
-          source: "./"
-          target: "/root/ipan-websit/ipanmock/public"
+            host: "1.15.129.139"
+            username: "root"
+            password: "Pslslp.10"
+            port: 22
+            source: "./"
+            target: "/root/ipan-websit/ipanmock/public"
         
