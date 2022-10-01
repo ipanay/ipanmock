@@ -1,0 +1,1 @@
+{"projectitem":[{"id":"ipan-project-item-0","userId":"ipan-ipanmock","projectId":"ipan-project-0","name":"登陆","method":"post","params":{"id":"id","name":"name"},"paramsdetail":[{"name":"id","notnull":0,"description":"用户id"},{"name":"name","notnull":0,"description":"用户id"}],"description":"手动创建的测，试手动创建的测试手动创建的测试","createdate":"1586752443314"}]}
