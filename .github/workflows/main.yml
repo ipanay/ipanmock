@@ -33,7 +33,7 @@ jobs:
       - name: copy file via ssh key
         uses: appleboy/scp-action@v0.0.1
         with: 
-          host: 1.15.129.139
+          host: ipanmock.cn
 #           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE.USER }}
           password: ${{ secrets.REMOTE.PASS }}
