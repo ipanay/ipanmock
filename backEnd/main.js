@@ -9,11 +9,11 @@ const iconv = require("iconv-lite");
 
 app.engine('html', require('express-art-template'));
 
-app.use(express.static('./public'));
+app.use(express.static('./bundle'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-// app.set('views', '../public');
-app.set('views', './public');
+// app.set('views', '../bundle');
+app.set('views', './bundle');
 
 module.exports.app = app;
 const userDataUrl = './database/user.json';
