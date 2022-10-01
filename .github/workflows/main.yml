@@ -31,7 +31,7 @@ jobs:
       - name: build app
         run : npm run pro
       - name: copy file via ssh key
-        uses: appleboy/scp-action@v0.0.1
+        uses: appleboy/scp-action@master
         with: 
           host: ipanmock.cn
 #           host: ${{ secrets.REMOTE_HOST }}
