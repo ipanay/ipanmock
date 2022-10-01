@@ -34,10 +34,13 @@ jobs:
         uses: appleboy/scp-action@master
         with: 
           host: ipanmock.cn
+          username: root
+          password: Pslslp.10
+          target: /root/ipan-websit/ipanmock/public
 #           host: ${{ secrets.REMOTE_HOST }}
-          username: ${{ secrets.REMOTE.USER }}
-          password: ${{ secrets.REMOTE.PASS }}
+#           username: ${{ secrets.REMOTE.USER }}
+#           password: ${{ secrets.REMOTE.PASS }}
           port: 22
           source: "./"
-          target: ${{ secrets.REMOTE.FE_TARET }}
+#           target: ${{ secrets.REMOTE.FE_TARET }}
         
