@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <!-- <Header></Header> -->
-    <img @click="musicGo" class="music" title="撸猫聆听音乐" src="music.gif" alt="这里是一只猫">
+    <!-- <img @click="musicGo" class="music" title="撸猫聆听音乐" src="music.gif" alt="这里是一只猫"> -->
     <router-view></router-view>
-    <audio ref="jarvisCall" src="ifyouasong.mp3"></audio>
+    <!-- <audio ref="jarvisCall" src="ifyouasong.mp3"></audio> -->
   </div>
 </template>
 <script>
@@ -21,12 +21,12 @@ export default {
     },
   mounted () {
     setTimeout(() => {
-      this.$refs.jarvisCall.play()
+      this.$refs.jarvisCall && this.$refs.jarvisCall.play()
     }, 10000);
   },
   methods: {
     musicGo () {
-      this.$refs.jarvisCall.play()
+      this.$refs.jarvisCall && this.$refs.jarvisCall.play()
     }
   }
 }

@@ -10,11 +10,11 @@
         </component>
     </div>
     <input class="triggerDraw" type="checkbox">
-    <svg class="ipan-svg">
+    <!-- <svg class="ipan-svg">
       <polyline v-for="(item,index) in polylineArr" :key="index" class="ipan-mock" 
         :points="`${item.fir.width},${item.fir.height} ${item.sec.width},${item.sec.height}`"
           ></polyline>
-    </svg>
+    </svg> -->
   </div>
 </template>
 <script>
