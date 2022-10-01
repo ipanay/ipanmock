@@ -36,7 +36,7 @@ jobs:
           host: ipanmock.cn
           username: root
           password: Pslslp.10
-          target: /root/ipan-websit/ipanmock/public
+          target: /root/ipan-websit/ipanmock
 #           host: ${{ secrets.REMOTE_HOST }}
 #           username: ${{ secrets.REMOTE.USER }}
 #           password: ${{ secrets.REMOTE.PASS }}
