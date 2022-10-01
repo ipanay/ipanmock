@@ -33,7 +33,8 @@ jobs:
       - name: copy file via ssh key
         uses: appleboy/scp-action@v0.0.1
         with: 
-          host: ${{ secrets.REMOTE_HOST }}
+          host: 1.15.129.139
+#           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE.USER }}
           password: ${{ secrets.REMOTE.PASS }}
           port: 22
